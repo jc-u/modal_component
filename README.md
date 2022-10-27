@@ -18,17 +18,17 @@ npm 7.5.2
 
 ## Installation
 
-`npm install @jc/modal`
+`npm install @jc-u/modal`
 
 ## Usage
 
 where you want to use the component:
 
-`import Modal from @jc/modal`
+`import Modal from @jc-u/modal`
 
 in the index.scss:
 
-`@import "../../node_modules/@jc/modal/src/styles/modal";`
+`@import "../../node_modules/@jc-u/modal/src/styles/modal";`
 
 ## Retrieve date & customization
 
