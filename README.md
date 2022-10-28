@@ -30,7 +30,7 @@ in the index.scss:
 
 `@import "../../node_modules/@jc-u/modal/src/styles/modal";`
 
-## Retrieve date & customization
+## Modal appearance
 
 `<Modal setModalShowed={setModalShowed} />`
 
