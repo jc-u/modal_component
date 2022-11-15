@@ -39,7 +39,3 @@ setModalShowed props is necessary to know if the modal should be displayed.
 ## credits
 
 Autor: Jean-Christophe Urbain
-
-## Keywords
-
-react react-component modal dialog
