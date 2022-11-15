@@ -27,6 +27,12 @@
     "eject": "react-scripts eject",
     "publish:npm": "rmdir dist && mkdir dist &&  babel src/component -d dist --copy-files"
   },
+  "keywords": [
+    "react",
+    "react-component",
+    "dialog",
+    "modal"
+    ],
   "eslintConfig": {
     "extends": [
       "react-app",
