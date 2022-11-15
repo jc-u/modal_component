@@ -1,8 +1,9 @@
 {
   "name": "@jc-u/modal",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "author": "jc-u <jcurbain.admin@gmail.com>",
   "private": false,
+  
   "babel": {
     "presets": [
       "@babel/preset-react"
@@ -27,12 +28,6 @@
     "eject": "react-scripts eject",
     "publish:npm": "rmdir dist && mkdir dist &&  babel src/component -d dist --copy-files"
   },
-  "keywords": [
-    "react",
-    "react-component",
-    "dialog",
-    "modal"
-    ],
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -63,7 +58,11 @@
     "type": "git",
     "url": "git+https://github.com/jc-u/modal_component.git"
   },
-  "keywords": [],
+  "keywords": ["react",
+    "react-component",
+    "dialog",
+    "modal"
+    ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jc-u/modal_component/issues"
