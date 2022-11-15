@@ -32,9 +32,9 @@ in the index.scss:
 
 ## Modal appearance
 
-`<Modal setModalShowed={setModalShowed} />`
+`<Modal setModalShowed={setModalShowed} message="Hello" />`
 
-setModalShowed props is necessary to know if the modal should be displayed.
+setModalShowed and message props is necessary to know if the modal should be displayed.
 
 ## credits
 
