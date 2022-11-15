@@ -1,8 +1,7 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserCheck } from '@fortawesome/free-solid-svg-icons';
 const Modal = ({
-  setModalShowed
+  setModalShowed,
+  message
 }) => {
   const CloseModal = e => {
     e.preventDefault();
@@ -15,8 +14,6 @@ const Modal = ({
     className: "modal"
   }, /*#__PURE__*/React.createElement("button", {
     onClick: () => setModalShowed(false)
-  }, "X"), /*#__PURE__*/React.createElement(FontAwesomeIcon, {
-    icon: faUserCheck
-  }), /*#__PURE__*/React.createElement("h2", null, "Employee Created!")));
+  }, "X"), message));
 };
 export default Modal;
