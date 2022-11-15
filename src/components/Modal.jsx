@@ -1,6 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUserCheck } from '@fortawesome/free-solid-svg-icons'
 
 const Modal = ({ setModalShowed, message }) => {
   const CloseModal = (e) => {
